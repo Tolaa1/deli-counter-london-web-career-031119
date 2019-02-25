@@ -4,7 +4,7 @@ def line
 end
 def take_a_number(name,line)
   name.push
-  puts "Welcome, #{name}.You are number #{line} in line"
+  puts "Welcome, #{name}.You are number #{line.length} in line"
 end
 def nos_serving(line)
   puts "Currently serving #{name}"
