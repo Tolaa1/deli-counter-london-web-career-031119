@@ -5,8 +5,8 @@ def line
     puts "the line is Currently emty." 
     else 
       current_line = "The line is currently:"
-    line.each.with_index(1) do |person, i|
-      current_line << " #{i}. #{person}"
+    line.each.with_index(1) do |name, i|
+      current_line << " #{i}. #{name}"
     end
     puts current_line
     
