@@ -3,6 +3,12 @@ def line
   line = katz_deli = []
   if line.emty?
     puts "the line is Currently emty." 
+    else 
+      current_line = "The line is currently:"
+    line.each.with_index(1) do |person, i|
+      current_line << " #{i}. #{person}"
+    end
+    puts current_line
     
 end
 def take_a_number(name,line)
