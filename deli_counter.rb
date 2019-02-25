@@ -1,6 +1,5 @@
 # Write your code here.
 def line 
-  line  = []
   if line.emty?
     puts "the line is Currently emty." 
     else 
