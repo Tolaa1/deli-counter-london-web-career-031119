@@ -1,6 +1,8 @@
 # Write your code here.
 def line 
-  katz_deli = []
+  line = katz_deli = []
+  if line is emty?
+    puts 
 end
 def take_a_number(name,line)
   name.push
