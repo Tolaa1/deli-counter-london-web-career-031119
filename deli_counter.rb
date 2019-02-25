@@ -10,3 +10,4 @@ def take_a_number(name,line)
 end
 def nos_serving(line)
   puts "Currently serving #{name}"
+end
