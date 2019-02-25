@@ -1,6 +1,6 @@
 # Write your code here.
 def line 
-  line = katz_deli = []
+  line  = []
   if line.emty?
     puts "the line is Currently emty." 
     else 
