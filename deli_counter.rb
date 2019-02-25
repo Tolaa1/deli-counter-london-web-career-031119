@@ -9,5 +9,10 @@ def take_a_number(name,line)
   puts "Welcome, #{name}.You are number #{line.length} in line"
 end
 def nos_serving(line)
-  puts "Currently serving #{name}"
+  if line.length == 0 
+  if line.emty?
+    puts "there is nobody waiting to be served"
+  else
+  puts "Currently serving #{line.first}"
+  line.shift
 end
