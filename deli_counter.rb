@@ -1,8 +1,10 @@
 # Write your code here.
-def line 
+def line(line) 
   if line.emty?
     puts "the line is Currently emty." 
-    else 
+ end
+   
+   else 
       current_line = "The line is currently:"
     line.each.with_index(1) do |name, i|
       current_line << " #{i}. #{name}"
